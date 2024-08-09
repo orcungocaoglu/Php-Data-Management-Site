@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+
+}
+
+#menu{
+  height: 80px;
+  padding: 0 30px;
+background-color: ghostwhite;
+}
+
+#logo{
+  font-size: 38px;
+  line-height: 80px;
+  color:white;
+  float: left;
+  margin-left: 40px;
+}
+
+nav{
+  float: right;
+  line-height: 80px;
+}
+
+nav a:link{
+  text-decoration: none;
+  margin-right: 35px;
+  color: #003666;
+}
+
+nav a:hover{
+border-bottom: 2px solid #003666;
+
+}
+
+nav a:visited{
+  text-decoration: none;
+  margin-right: 35px;
+  color: #003666;
+}
+
+.ikon{
+  margin-right: 15px;
+  font-size: 20px;
+
+}
+#anasayfa{
+background-size: cover;
+height: 800px;
+background-image: url("img/imgg.jpg");
+background-attachment: fixed;
+background-position: center center;
+min-height: 100%;
+}
+#black{
+height: 700px;
+opacity: 0.08;
+background-color: white;
+
+}
+#pln{
+   font-size: 40px;
+  line-height: 80px;
+}
+
+#img{
+background-size: cover;
+min-height: 100%;
+background-image: url("img/imgg.jpg");
+background-attachment: fixed;
+background-position: center center;
+
+}
+#icerik{
+  position: absolute;
+  top: 13%;
+  left: 55%;
+  font-size: 30px;
+  color: white;
+}
+#slgn{
+  font-size: 30px;
+  color: white;
+}
+#baslik{
+  font-size: 40px;
+  text-align: center;
+  color: #003666;
+}
+.container{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+}
+
+#hizmet{
+  padding: 40px;
+  text-align: center;
+  height: 700px;
+}
+.card {
+  width: 350px;
+  height: 450px;
+  padding: 30px;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+  text-align: center;
+  box-sizing: border-box; /* padding alanını genişliğe dahil eder */
+}
+
+.img-fluid {
+  width: 100%;
+  height: 250px; /* Düzgün bir görüntü boyutu için yükseklik ayarlayın */
+  object-fit: cover; /* Görselin boyutunu korurken oranları korur */
+}
+
+.baslikcard {
+  color: #003666;
+}
+
+.cardp {
+  color: #888;
+}
+ 
